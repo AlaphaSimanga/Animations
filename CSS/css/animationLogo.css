@@ -1,0 +1,21 @@
+@keyframes LinkedInLogo{
+  0%{transform: translateY(200px);}
+  25%{transform: translateY(200px);}
+  50%{border-radius: 100%;}
+  100%{transform: rotate(90deg);}
+}
+
+  img{
+    width: auto;
+    height: auto;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    filter: grayscale(100%);
+    
+  }
+
+  img:hover{
+    animation-name: LinkedInLogo;
+    animation-iteration-count: ease-in;
+
+  }
